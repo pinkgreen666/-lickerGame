@@ -1,0 +1,50 @@
+body {
+    background: #bbddff;
+}
+
+h1 {
+    color: #bb11ff;
+    background-color: #6611ff;
+    font-family: "Pshek_KY2";
+    font-size: 100px;
+    user-select: none;
+    text-align: center;
+    margin-top: 0%;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.botton, .clicker {
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.clicker {
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+    transition: width 0.05s, height 0.05s;
+}
+.clicker:hover {
+	width:215px;
+	height:215px;
+}
+.clicker:active {
+	transition: width 0.05s, height 0.05s;
+	width:200px;
+	height:200px;
+}
+
+.balance_text {
+    color: #000000;
+}
+
+@font-face {
+    font-family: "Pshek_KY2"; 
+    src: url("../fonts/Pshek_KY2.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
